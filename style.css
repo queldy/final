@@ -1,0 +1,22 @@
+.banner {
+    width: 100%; /* Растягиваем на всю ширину */
+    height: 90px; /* Устанавливаем высоту */
+    background-image: url('/final/f9b0a4eefa20c295e23ae35559a6d731.png'); /* Здесь укажите путь к изображению */
+    background-size: cover; /* Изображение будет растянуто, чтобы покрыть весь баннер */
+    background-position: center; /* Центрируем изображение */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Цвет текста */
+    font-size: 36px; /* Размер шрифта */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Тень для текста */
+}
+
+#title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.pages {
+    text-align: center;
+}
